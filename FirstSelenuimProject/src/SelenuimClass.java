@@ -7,7 +7,7 @@ public class SelenuimClass {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		
+
 		System.setProperty("webdriver.chrome.driver","/home/masoud/eclipse-workspace/chromedriver");
 		WebDriver driver=new ChromeDriver();  
 		driver.get("http://demo-store.seleniumacademy.com/");
